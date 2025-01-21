@@ -4,16 +4,17 @@ concatination of strings  */
 const name = "abc "
 const course = "mca "
 
-console.log(name + course + "year");
-console.log(`hello my name is ${name} and my course is ${course}`);
+console.log(name + course + "year"); //concatination using + sign 
+console.log(`hello my name is ${name} and my course is ${course}`);  // concatination usnig `` ✔️
+// This method (concationation using `` is called string interpolation )
 
 // more 
 
 const Name = new String('abcdefgh')
 
-console.log(Name[0]);    // value at 0t 1`h key
+console.log(Name[0]);    // value at 0th key
 console.log(Name.length);
-console.log(Name.toUpperCase());
+console.log(Name.toUpperCase());   
 console.log(Name);
 console.log(Name.charAt(3));        //to check at what position which element are there
 console.log(Name.indexOf('d'));    // to check which element at what position
@@ -41,3 +42,4 @@ whitespace ----> space  & line terminator (\n) */
 const url = "https://sakshi.com/abc%20xyz"
 console.log(url.replace('%20', '-'))
 
+ 
