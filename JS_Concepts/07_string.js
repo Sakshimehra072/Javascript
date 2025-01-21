@@ -1,6 +1,6 @@
-/*    STRING
+//   STRING
+// concatination of strings :
 
-concatination of strings  */
 const name = "abc "
 const course = "mca "
 
@@ -9,8 +9,7 @@ console.log(`hello my name is ${name} and my course is ${course}`);  // concatin
 // This method (concationation using `` is called string interpolation )
 
 // more 
-
-const Name = new String('abcdefgh')
+const Name = new String('Sakshi')
 
 console.log(Name[0]);    // value at 0th key
 console.log(Name.length);

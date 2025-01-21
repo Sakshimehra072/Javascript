@@ -4,6 +4,7 @@
 const str = "This is it"
 console.log(str)
 console.log("typeof is :" ,typeof str)
+
 //2 Number
 const score = 100
 const updatedscore = 100.3
@@ -65,4 +66,3 @@ console.log ("typeof is :" ,typeof cs);
 
 // typeof of non-premitive data is "object" , typeof of function is function (it is also called function object )
 // reference : Ecma script
-
