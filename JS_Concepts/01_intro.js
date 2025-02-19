@@ -7,3 +7,4 @@ account_details = "private"
 console.log(accountId);
 
 console.table([accountId, name, email, account_details])
+

@@ -28,7 +28,8 @@ console.log(anotherString);
 
 //-------TRIM or REPLACE-------  (To remove unwanted spaces )
 
-const valuetobetrimed = "      sakshi     "
+const valuetobetrimed = "      sakshi     " 
+
 console.log(valuetobetrimed);
 console.log(valuetobetrimed.trim())
 /*  PTR:      
