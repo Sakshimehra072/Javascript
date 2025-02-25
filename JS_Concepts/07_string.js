@@ -11,7 +11,7 @@ console.log(`hello my name is ${name} and my course is ${course}`);  // concatin
 // more 
 const Name = new String('Sakshi')
 
-console.log(Name[0]);    // value at 0th key
+console.log(Name[0]);    // value at 0th key, it is a key value pair
 console.log(Name.length);
 console.log(Name.toUpperCase());   
 console.log(Name);
